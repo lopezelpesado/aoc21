@@ -14,8 +14,8 @@ function windowSum(arr) {
     return newArr.splice(0, arr.length - 2);
 }
 
-console.log("2 example", numberOfIncreases(windowSum(exampleData)));
+console.log("2 example:", numberOfIncreases(windowSum(exampleData)));
 
 import puzzleInput from "./puzzleInput.js";
 
-console.log("2 solution", numberOfIncreases(windowSum(puzzleInput)));
+console.log("2 solution:", numberOfIncreases(windowSum(puzzleInput)));

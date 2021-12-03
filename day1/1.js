@@ -14,8 +14,8 @@ export default function numberOfIncreases(arr) {
   return count;
 };
 
-console.log("1 example", numberOfIncreases(exampleData));
+console.log("1 example:", numberOfIncreases(exampleData));
 
 import puzzleInput from "./puzzleInput.js";
 
-console.log("1 solution", numberOfIncreases(puzzleInput));
+console.log("1 solution:", numberOfIncreases(puzzleInput));
