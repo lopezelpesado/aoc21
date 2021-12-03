@@ -1,6 +1,6 @@
 // converted lists of numbers with arraythis.com
 
-const exampleDepths = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263];
+import exampleData from "./exampleData.js";
 
 export default function numberOfIncreases(arr) {
   let count = 0;
@@ -12,10 +12,10 @@ export default function numberOfIncreases(arr) {
     }
   })
   return count;
-}
+};
 
-console.log(numberOfIncreases(exampleDepths))
+console.log("1 example", numberOfIncreases(exampleData));
 
-import puzzleInput from "./puzzleInput.js"
+import puzzleInput from "./puzzleInput.js";
 
-console.log(numberOfIncreases(puzzleInput))
+console.log("1 solution", numberOfIncreases(puzzleInput));
